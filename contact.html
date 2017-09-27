@@ -32,7 +32,7 @@ li a {
 li a:hover {
     background-color: #111;
   text-decoration: none;
-  color: white;
+  color: white; 
 }
       .active {
     background-color: #4CAF50;
@@ -40,7 +40,38 @@ li a:hover {
       a{
         color: white;
       }
-
+.GeneratedMarquee {
+font-size:25px;
+color: green;
+background-color: white;
+  height: 40px;
+  width: 100%;
+  border: solid black; 
+      }
+      object{
+        overflow:hidden; 
+        width: 732px; 
+        height: 95px;
+        color: green;
+      }
+#newsdiv{
+  height: 40px;
+      }
+      #newsbarid{
+        position: relative;
+        
+      }
+      #headpic{
+        height: 100px; 
+        position: relative;
+        background-color: red;
+        
+      }
+      #footer{
+        background-color: black;
+        position: relative;
+        height: 100px;
+      }
     </style>
   </head>
   <body class="container fluid">
@@ -50,11 +81,30 @@ li a:hover {
   <li><a href="about.html">About</a></li>
   <li><a href="news.html">News</a></li>
   <li><a href="portfolio.html">Portfolio</a></li>
-
   <li><a href="contact.html" class="active">Contact</a></li>
 </ul>
-    <div id="footer">
+    <div id="headpic"></div>
+<a href="news.html"><marquee id="newsbarid" class="GeneratedMarquee" direction="left" scrollamount="11" behavior="scroll"><div id="newsdiv"><object data="news_headings.txt"></object></div></marquee></a>
+    
+    
+    
+    
+    
+    <div id="page-body">
+      <div id="info"></div>
+      <div id="menu">
+        <a href="about.html"><div id="menu-about"></div></a>
+        <a href="portfolio.html"><div id="menu-port"></div></a>
+        <a href="contact.html"><div id="menu-contact"></div></a>
+      </div>
+      <div id="other"></div>
     </div>
-
+     
+     
+    
+    
+    
+    <div id="footer">
+    </div>     
   </body>
-  </html>
+  </html> 
