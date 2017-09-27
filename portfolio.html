@@ -15,9 +15,11 @@
     overflow: hidden;
     background-color: #333;
 }
+
 li {
     float: left;
 }
+
 li a {
     display: block;
     color: white;
@@ -25,17 +27,31 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
   text-decoration: none;
-  color: white;
+  color: white; 
 }
       .active {
     background-color: #4CAF50;
 }
       a{
         color: white;
+      }
+
+      }
+      #headpic{
+        height: 100px; 
+        position: relative;
+        background-color: red;
+        
+      }
+      #footer{
+        background-color: black;
+        position: relative;
+        height: 100px;
       }
     </style>
   </head>
@@ -46,11 +62,30 @@ li a:hover {
   <li><a href="about.html">About</a></li>
   <li><a href="news.html">News</a></li>
   <li><a href="portfolio.html" class="active">Portfolio</a></li>
-
   <li><a href="contact.html">Contact</a></li>
 </ul>
-    <div id="footer">
-    </div>
+    <div id="headpic"></div>
 
+    
+    
+    
+    
+    
+    <div id="page-body">
+      <div id="info"></div>
+      <div id="menu">
+        <a href="about.html"><div id="menu-about"></div></a>
+        <a href="portfolio.html"><div id="menu-port"></div></a>
+        <a href="contact.html"><div id="menu-contact"></div></a>
+      </div>
+      <div id="other"></div>
+    </div>
+     
+     
+    
+    
+    
+    <div id="footer">
+    </div>     
   </body>
-  </html>
+  </html> 
