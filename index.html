@@ -73,41 +73,13 @@ background-color: white;
         height: 100px;
        
       }
-      #menu-about {
+      .menublock{
         background-color: blue;
-        height: 150px;
+        display: inline-block;
         width: 150px;
-        position: relative;
-      }
-        #menu-about:hover {
-        background-color: blue;
-        height: 200px;
-        width: 200px;
-        position: relative;
-      }
-        #menu-contact {
-        background-color: blue; 
-        height: 150px;
-        width: 150px;
-        position: absolute;
-        float: right;
-        top: 0px;
-      }
-        #menu-contact:hover {
-        background-color: blue;
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        float: right;
-        top: 0px;
-      }
-       .menublock {
-         display: inline-block;
-      }
-      #menu{
-        position: relative;
-        width: 100%;
-        height: 250px;
+        height: 75px;
+        margin: 10px;
+        border: 3px solid #73AD21;  
       }
     </style>
   </head>
@@ -128,7 +100,7 @@ background-color: white;
       <div id="info"></div>
       <div id="menu">
         <a href="about.html"><div id="menu-about" class="menublock"></div></a>
-        <a href="portfolio.html"><div id="menu-port"></div></a>
+        <a href="portfolio.html"><div id="menu-port" class="menublock"></div></a>
         <a href="contact.html"><div id="menu-contact" class="menublock"></div></a>
       </div>
       <div id="other"></div>
