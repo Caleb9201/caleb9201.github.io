@@ -40,17 +40,59 @@ li a:hover {
       a{
         color: white;
       }
-
+.GeneratedMarquee {
+font-size:25px;
+color: green;
+background-color: white;
+  height: 40px;
+  width: 100%;
+  border: solid black; 
+      }
+      object{
+        overflow:hidden; 
+        width: 732px; 
+        height: 95px;
+        color: green;
+      }
+#newsdiv{
+  height: 40px;
+      }
+      #newsbarid{
+        position: relative;
+        
+      }
       #headpic{
         height: 100px; 
         position: relative;
         background-color: red;
-        
+        border: 5px solid black;
+       
       }
       #footer{
         background-color: black;
         position: relative;
         height: 100px;
+        border: 5px solid black;
+      }
+      .img-df{
+        position: relative; 
+        width: 100%;
+        height: 100%;
+      }
+      #info{ 
+        height: 200px;
+        position: relative;
+        border: 5px solid black;
+        background-color: white;
+      }
+        #other{ 
+        height: 500px;
+        position: relative;
+        border: 5px solid black;
+          background-color: white;
+      }
+      body{ 
+        background-image: url("background-site.jpg");
       }
     </style>
   </head>
@@ -63,28 +105,27 @@ li a:hover {
   <li><a href="portfolio.html" class="active">Portfolio</a></li>
   <li><a href="contact.html">Contact</a></li>
 </ul>
-    <div id="headpic"></div>
+    <div id="headpic">
+      <img src="header.png" class="img-df"></img>
+    </div>
 
-    
-    
-    
     
     
     <div id="page-body">
       <div id="info"></div>
       <div id="menu">
-        <a href="about.html"><div id="menu-about"></div></a>
-        <a href="portfolio.html"><div id="menu-port"></div></a>
-        <a href="contact.html"><div id="menu-contact"></div></a>
+        <a href="about.html"><div id="menu-about" class="menublock"></div></a>
+        <a href="portfolio.html"><div id="menu-port" class="menublock"></div></a>
+        <a href="contact.html"><div id="menu-contact" class="menublock"></div></a>
       </div>
       <div id="other"></div>
     </div>
-     
-     
     
-    
-    
+  
     <div id="footer">
+      <img src="footer.png" class="img-df"></img>
     </div>     
   </body>
   </html> 
+  
+
