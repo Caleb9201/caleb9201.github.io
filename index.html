@@ -78,28 +78,31 @@ background-color: white;
         position: relative;
         height: 150px;
         width: 150px;
-        float: left;
+       
       }
         #menu-about:hover {
         background-color: blue;
         position: relative;
         height: 200px;
         width: 200px;
-        float: left;
+       
       }
         #menu-contact{
         background-color: blue;
         position: relative;
         height: 150px;
         width: 150px;
-        float: right;
+       
       }
         #menu-contact:hover {
         background-color: blue;
         position: relative;
         height: 200px;
         width: 200px;
-        float: right;
+       
+      }
+       .menublock {
+         display: inline-block;
       }
     </style>
   </head>
@@ -122,9 +125,9 @@ background-color: white;
     <div id="page-body">
       <div id="info"></div>
       <div id="menu">
-        <a href="about.html"><div id="menu-about"></div></a>
+        <a href="about.html"><div id="menu-about" class="menublock"></div></a>
         <a href="portfolio.html"><div id="menu-port"></div></a>
-        <a href="contact.html"><div id="menu-contact"></div></a>
+        <a href="contact.html"><div id="menu-contact" class="menublock"></div></a>
       </div>
       <div id="other"></div>
     </div>
